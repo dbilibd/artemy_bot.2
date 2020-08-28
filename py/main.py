@@ -9,9 +9,9 @@ import nltk
 from replicas import eng1, liza, l1, l11, l2, l21, l3, l31, l4, l41, l5, l51, l6, l61, l7, l71, l8, l81, welcome,welcome1, artemy, artemy1
 
 
-main_token = 'ed495695fc5bf798f4fbb7d5d9b87446b1e304080cac053a4540a6c9075f19fd8f6347ed8988b5491be2a'
+main_token = 'd67f83db79197faed7c707a243fa66e7e8b02c7d3de626ff29b83eb816396983cac11adb5b7d6b576a1d6'
 vk_session = vk_api.VkApi(token = main_token)
-longpoll = VkBotLongPoll(vk_session, '198259825')
+longpoll = VkBotLongPoll(vk_session, '198179927')
 vk = vk_session.get_api()
 
 def sms(id, msg):
